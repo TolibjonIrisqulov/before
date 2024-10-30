@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zamonaviy Web Sayt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bizning Saytimiz</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Bosh Sahifa</a></li>
+                <li><a href="#about">Haqqimizda</a></li>
+                <li><a href="#services">Xizmatlar</a></li>
+                <li><a href="#gallery">Galereya</a></li>
+                <li><a href="#feedback">Fikr-mulohazalar</a></li>
+                <li><a href="#contact">Aloqa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Xush kelibsiz!</h2>
+            <p>Bizning saytimizda zamonaviy xizmatlar haqida ma'lumot oling.
+                <br><br>
+                BITTA DASTURIY MAHSULOT DAVLATIMIZGA QANCHA NAF KELTIRADI, KORRUPSIYA, <br> BYUROKRATIYANI BARTARAF ETADI, ODAMLARGA QULAYLIK YARATADI. <br> HAR DOIM YODDA TUTINGLARKI, SIZLARNING ISHINGIZ JUDAYAM MUHIM
+            </p>
+            <button id="learnMore">Ko'proq ma'lumot</button>
+        </section>
+
+        <section id="about">
+            <h2>Haqqimizda</h2>
+            <p>Biz zamonaviy texnologiyalarni qo'llab-quvvatlaymiz.
+                <br><br>
+                [Sizning Kompaniya Ismingiz] — innovatsion texnologiyalar sohasida faoliyat yurituvchi kompaniya. Biz, tajribali mutaxassislar jamoasi sifatida, mijozlarimizga sifatli va samarali yechimlar taqdim etishga intilamiz.
+<br>
+Bizning maqsadimiz — zamonaviy texnologiyalar yordamida biznes jarayonlarini optimallashtirish, yangi imkoniyatlar yaratish va mijozlarimizning raqobatbardoshligini oshirishdir. Har bir loyiha ustida qattiq ishlaymiz va o'z mijozlarimizning ehtiyojlariga mos yechimlar taklif etamiz.
+<br>
+Biz haqimizda ko'proq ma'lumot olish uchun biz bilan bog'laning yoki saytimizni o'rganing. Keling, birga innovatsiyalarni yaratamiz!
+            </p>
+        </section>
+
+        <section id="services">
+            <h2>Xizmatlarimiz</h2>
+            <ul id="serviceList"></ul>
+        </section>
+
+        <section id="gallery">
+            <h2>Galereya</h2>
+            <div id="imageGallery" class="gallery"></div>
+        </section>
+
+        <section id="feedback">
+            <h2>Fikr-mulohazalar</h2>
+            <ul id="feedbackList"></ul>
+            <form id="feedbackForm">
+                <input type="text" placeholder="Ismingiz" required>
+                <textarea placeholder="Fikringiz" required></textarea>
+                <button type="submit">Yuborish</button>
+            </form>
+        </section>
+
+        <section id="contact">
+            <h2>Aloqa</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Ismingiz" required>
+                <input type="email" placeholder="Emailingiz" required>
+                <textarea placeholder="Xabar" required></textarea>
+                <button type="submit">Yuborish</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Bizning Saytimiz</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

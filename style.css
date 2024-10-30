@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Asosiy uslublar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Kichik ekranlar (mobil telefonlar) */
+@media (max-width: 600px) {
+    body {
+        background-color: #f0f0f0;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+}
+
+/* O‘rta ekranlar (planshetlar) */
+@media (min-width: 601px) and (max-width: 900px) {
+    body {
+        background-color: #e0e0e0;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+}
+
+/* Katta ekranlar (kompyuterlar) */
+@media (min-width: 901px) {
+    body {
+        background-color: #fff;
+    }
+    
+    h1 {
+        font-size: 36px;
+    }
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+
+button {
+    background: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #4cae4c;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
